@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Oefeningen STEM1
 # Computational thinking
-# Hylke Alkema
+# 
 # Vragen over digitale middelen en bronnnen
 
 # python 2.7
