@@ -76,14 +76,14 @@ question ={
 	3:{
 		"name":		"Function",
 		"q":		"\nWat is je functie?\n",
-		"tip":		"zorgverlener , geen , etc",
+		"tip":		"developer , geen , etc",
 		"type":		"string",
 		"next":		4
 	},
 	4:{
 		"name":		"Digital_source",
 		"q":		'''\nWelke digitale bronnen en middelen gebruik je?\n'''+
-					'''1. Pynter\n2. Webmail\n3. PCD\n4. Mijn Cosis\n5. Novonet\n6. Geen\n''',
+					'''1. Github\n2. Webmail\n3. stackoverflow\n4. Google\n5. youtube\n6. Geen\n''',
 		"tip":		"1, 2, 3 (meerdere opties gescheiden met comma b.v. 3, 5) of 6",
 		"option":	(range(1, 5), [6]),
 		"type":		"multi",
@@ -98,15 +98,15 @@ question ={
 #		"next":		(6, 6)
 	},
 	6:{
-		"name":		"Pynter_profile",
-		"q":		"\nHeb je in Pynter een profiel aangemaakt waarin je kennis en talenten zichtbaar maakt?\n(ja / nee)\n",
+		"name":		"Social_media",
+		"q":		"\nGebruik je ook Social media?\n(ja / nee)\n",
 		"tip":		"ja of nee\n",
 		"type":		"bolean",
 #		"next":		(7, 7)
 	},
 	7:{
-		"name":		"Pynter_groups",
-		"q":		"\nNeem je deel aan groepen in Pynter?\n(ja / nee)\n",
+		"name":		"",
+		"q":		"\nNeem je deel aan een cursus?\n(ja / nee)\n",
 		"tip":		"ja / nee\n",
 		"type":		"bolean",
 		"option":	(["ja","j", "y", "yes", "yhah", "si"], ["nee","n", "no", "nope"]),
@@ -132,7 +132,7 @@ question ={
 	10:{
 		"name":		"ICT_improve",
 		"q":		'''\nOp welke manier zou je graag je ICT vaardigheden willen verbeteren?\n'''+
-					'''1. Door te leren in Pynter (E-learning)\n'''+
+					'''1. Door te leren in Python (E-learning)\n'''+
 					'''2. Door het volgen van een reguliere cursus\n'''+
 					'''3. Door te leren van mijn collega/'s\n'''+
 					'''4. Ik wil mijn ICT-vaardigheden niet verbeteren\n''',
@@ -155,10 +155,10 @@ question ={
 }
 
 
-intro = {'''\nBeste medewerker van Cosis.\n'''+
-		'''Deze vragenlijst gaat over digitale middelen en bronnen die Cosis gebruikt.\n'''+
-		'''Het doel van deze vragenlijst is om te inventariseren hoe medewerkers van Cosis deze middelen gebruiken en op welke manier medewerkers kennis delen.\n'''+
-		'''Alvast bedankt voor je medewerking.\n\n'''
+intro = {'''\nBeste cursist van SEY.\n'''+
+		'''Deze vragenlijst gaat over digitale middelen en bronnen die SEY gebruikt.\n'''+
+		'''Het doel van deze Quiz is om te kijken of jullie er Testen voor kunnen bouwen en kennis delen.\n'''+
+		'''Succes.\n\n'''
 		}
 
 outro = "\nBedankt voor je medewerking\n"
