@@ -1,8 +1,8 @@
 lang ={
 	"intro":[
-		"\nBeste medewerker van Cosis.\n",
-		"Deze vragenlijst gaat over digitale middelen en bronnen die Cosis gebruikt.",
-		"Het doel van deze vragenlijst is om te inventariseren hoe medewerkers van Cosis deze middelen gebruiken en op welke manier medewerkers kennis delen. ",
+		"\nBeste medewerker van ....\n",
+		"Deze vragenlijst gaat over digitale middelen en bronnen die .... gebruikt.",
+		"Het doel van deze vragenlijst is om te inventariseren hoe medewerkers van .... deze middelen gebruiken en op welke manier medewerkers kennis delen. ",
 		"Alvast bedankt voor je medewerking.\n"
 	],
 	# settings
